@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.crud
+{
+    width: 80%;
+    margin: auto;
+}
+head
+{
+   text-align: center; 
+   text-transform: uppercase; 
+   margin: 10px 0;
+}
+input
+{
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0; 
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+
+}
+
+input:focus
+{
+    background: #000;
+    transform: scale(1.1);
+}
+
+.price
+{
+    outline: none;
+    border: none;
+    margin: 4px 0; 
+    border-radius: 4px;
+    padding: 4px ;
+    width: 20%;
+    color: white;
+
+}
+
+.puton
+{
+    background-color:rgb(44, 6, 81);
+    color: white;
+    transition: 0.8s;
+}
+.puton:hover
+{
+    background-color: blueviolet;
+    letter-spacing: 1px;
+    color: #000;
+
+}
+
+.hold
+{
+    width: 45%;
+    background-color:rgb(44, 6, 81);
+    color: white;
+    transition: 0.8s;
+
+
+}
+.hold:hover
+{
+    background-color: blueviolet;
+    letter-spacing: 1px;
+    color: #000;
+}
+#total{
+    background-color:red ;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+content: 'Totsl:';
+}
+
+.btn
+{
+    background-color:rgb(44, 6, 81);
+border: none;
+color: white;
+padding: px;
+
+}
+
+.btn:hover
+{
+    background-color: blueviolet;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.danmo
+{
+    background-color: #111;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: white;
+
+}
+
+.danmo:focus
+{
+    background: #000;
+    transform: scale(1.1);    
+    border: none;
+    color: white;
+}
+
+#deletAll
+{
+width: 100%;
+}
